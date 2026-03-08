@@ -119,28 +119,64 @@ header {
             color: var(--Grey-700);
         }
 
-        a{
+        /* BUTTON HERO STYLES */
+
+        a {
             text-decoration: none;
             display: flex;
             width: 260px;
-            /* padding: var(--spacing-400); */
             background-color: var(--Grey-900);
             align-items: center;
             margin-bottom: var(--spacing-2000);
 
-            .button-text{
+            .button-text {
                 width: 204px;
                 text-align: center;
                 font: var(--text-preset-6);
                 color: var(--White);
             }
-            
-            .button-icon{
+
+            .button-icon {
                 background-color: var(--Gold-500);
                 display: block;
                 padding: var(--spacing-300);
-                
+
             }
         }
+    }
+}
+
+
+/* MAIN CONTENT STYLES */
+main {
+    padding: var(--spacing-0) var(--spacing-250);
+
+    .gallery .datails-image-grid1-mobile {
+        width: 100%;
+    }
+
+    .gallery-details {
+        margin: var(--spacing-300) var(--spacing-0);
+    }
+
+    .gallery-details h2 {
+        font: var(--text-preset-3-tablet);
+        color: var(--Grey-900);
+    }
+
+    .gallery-details p {
+        font: var(--text-preset-7);
+        color: var(--Grey-700);
+        margin-top: var(--spacing-300);
+    }
+
+
+    /* INSPIRATION SECTION STYLES */
+    .inspiration-section img{
+        width: 100%;
+    }
+
+    .inspiration-section img:nth-child(2){
+        margin: var(--spacing-200) var(--spacing-0);
     }
 }
