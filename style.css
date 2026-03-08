@@ -199,3 +199,21 @@ main {
         }
     }
 }
+
+
+/* FOOTER STYLES */
+footer{
+    background-color: var(--Grey-900);
+    color: var(--White);
+    padding: var(--spacing-600) var(--spacing-500);
+
+    p{
+        font: var(--text-preset-7);
+        margin: var(--spacing-500) var(--spacing-0);
+    }
+
+    .footer-icons{
+        display: flex;
+        gap: var(--spacing-250);
+    }
+}
