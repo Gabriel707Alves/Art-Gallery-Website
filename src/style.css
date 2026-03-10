@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*  IMPLEMENTATION OF TAILWIND CSS */
+@import 'tailwindcss';
+
+
+:root {
+    /* TEXT PRESET 1 */
+
+    --text-preset-1-desktop: 900 96px/90% "Big Shoulders", sans-serif;
+    --text-preset-1-tablet: 900 70px/90% "Big Shoulders", sans-serif;
+    --text-preset-1-mobile: 900 60px/90% "Big Shoulders", sans-serif;
+
+
+    /* TEXT PRESET 2 */
+
+    --text-preset-2-desktop: 900 70px/100% "Big Shoulders Display", sans-serif;
+    --text-preset-2-tablet: 900 50px/90% "Big Shoulders Display", sans-serif;
+
+
+    /* TEXT PRESET 3 */
+
+    --text-preset-3-desktop: 900 60px/100% "Big Shoulders Display", sans-serif;
+    --text-preset-3-tablet: 900 50px/90% "Big Shoulders Display", sans-serif;
+
+
+    /* TEXT PRESET 4 */
+
+    --text-preset-4: 900 36px/100% "Big Shoulders Display", sans-serif;
+
+
+    /* TEXT PRESET 5 */
+
+    --text-preset-5: 300 22px/140% "Outfit", sans-serif;
+    --text-preset-5-letter-spacing: 0px;
+
+
+    /* TEXT PRESET 6 */
+
+    --text-preset-6: 800 20px/100% "Big Shoulders Display", sans-serif;
+    --text-preset-6-letter-spacing: 3.64px;
+
+
+    /* TEXT PRESET 7 */
+
+    --text-preset-7: 300 18px/140% "Outfit", sans-serif;
+    --text-preset-7-letter-spacing: 0px;
+
+
+    /* BODY TEXT */
+
+    --text-body-large: 300 22px/140% "Outfit", sans-serif;
+    --text-body-medium: 300 20px/160% "Outfit", sans-serif;
+    --text-body-small: 300 18px/130% "Outfit", sans-serif;
+
+    /* COLORS */
+
+    --Grey-900: #151515;
+    --Grey-700: #444444;
+    --White: #fff;
+    --Gold-500: #D5966C;
+
+
+    /* SPACING */
+
+    --spacing-0: 0px;
+    --spacing-025: 2px;
+    --spacing-050: 4px;
+    --spacing-075: 6px;
+    --spacing-100: 8px;
+    --spacing-125: 10px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-250: 20px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-800: 64px;
+    --spacing-1000: 80px;
+    --spacing-2000: 100px;
+
+    /* RADIUS */
+
+    --radius-0: 0px;
+    --radius-4: 4px;
+    --radius-6: 6px;
+    --radius-8: 8px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-16: 16px;
+    --radius-20: 20px;
+    --radius-24: 24px;
+    --radius-full: 999px;
+}
+
+
+/* HERO SECTION STYLES */
+
+header {
+
+    >img {
+        width: 100%;
+    }
+
+    .gallery-info {
+        padding: var(--spacing-0) var(--spacing-250);
+
+        h1 {
+            font: var(--text-preset-1-mobile);
+            color: var(--Grey-900);
+            margin: var(--spacing-400) var(--spacing-0) var(--spacing-0) var(--spacing-0);
+
+        }
+
+        p {
+            margin: var(--spacing-400) var(--spacing-0);
+            font: var(--text-preset-7);
+            color: var(--Grey-700);
+        }
+
+        /* BUTTON HERO STYLES */
+
+        a {
+            text-decoration: none;
+            display: flex;
+            width: 260px;
+            background-color: var(--Grey-900);
+            align-items: center;
+            margin-bottom: var(--spacing-2000);
+
+            .button-text {
+                width: 204px;
+                text-align: center;
+                font: var(--text-preset-6);
+                color: var(--White);
+            }
+
+            .button-icon {
+                background-color: var(--Gold-500);
+                display: block;
+                padding: var(--spacing-300);
+
+            }
+        }
+    }
+}
+
+
+/* MAIN CONTENT STYLES */
+main {
+    padding: var(--spacing-0) var(--spacing-250);
+
+    .gallery .datails-image-grid1-mobile {
+        width: 100%;
+    }
+
+    .gallery-details {
+        margin: var(--spacing-300) var(--spacing-0);
+    }
+
+    .gallery-details h2 {
+        font: var(--text-preset-3-tablet);
+        color: var(--Grey-900);
+    }
+
+    .gallery-details p {
+        font: var(--text-preset-7);
+        color: var(--Grey-700);
+        margin-top: var(--spacing-300);
+    }
+
+
+    /* INSPIRATION SECTION STYLES */
+    .inspiration-section img{
+        width: 100%;
+    }
+
+    .inspiration-section img:nth-child(2){
+        margin: var(--spacing-200) var(--spacing-0);
+    }
+
+
+    /* INSPIRATION DETAILS STYLES */
+    .inspiration-details{
+        padding: var(--spacing-600) var(--spacing-300);
+        background-color: var(--Grey-900);
+        margin-bottom: var(--spacing-2000);
+
+        h2{
+            font: var(--text-preset-3-tablet);
+            color: var(--White);
+        }
+
+        p{
+            color: var(--White);
+            font: var(--text-preset-7);
+            margin-top: var(--spacing-300);
+        }
+    }
+}
+
+
+/* FOOTER STYLES */
+footer{
+    background-color: var(--Grey-900);
+    color: var(--White);
+    padding: var(--spacing-600) var(--spacing-500);
+
+    p{
+        font: var(--text-preset-7);
+        margin: var(--spacing-500) var(--spacing-0);
+    }
+
+    .footer-icons{
+        display: flex;
+        gap: var(--spacing-250);
+    }
+}
