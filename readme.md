@@ -1,6 +1,6 @@
 # 🎨 Art Gallery Landing Page
 
-A responsive landing page for a fictional art gallery website, built using **HTML5** and **CSS3**.
+A responsive landing page for a fictional art gallery website, built using **HTML5**, **CSS3** and **TAILWINDCSS**.
 This project focuses on clean layout structure, responsive design, and modern CSS techniques.
 
 ---
@@ -23,6 +23,7 @@ You can view the project here:
 
 * **HTML5**
 * **CSS3**
+* **TAILWINDCSS**
 * **Responsive Design**
 * **Mobile-First Layout**
 
@@ -50,6 +51,7 @@ The purpose of this project is to:
 
 * Practice semantic HTML structure
 * Improve CSS layout skills
+* learn and practice TAILWINDCSS
 * Build a **fully responsive landing page**
 * Follow basic **front-end best practices**
 
@@ -72,7 +74,7 @@ Media queries were used to ensure a smooth responsive experience.
 1. Clone this repository:
 
 ```
-git clone https://github.com/your-username/art-gallery-landing-page.git
+git clone https://github.com/Gabriel707Alves/Art-Gallery-Website.git
 ```
 
 2. Navigate to the project folder.
